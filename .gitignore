@@ -1,0 +1,52 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js Build Output
+/.next/
+/out/
+/build
+dist/
+
+# Local Environment & Secrets
+.env*.local
+.env
+.env.production
+.env.development
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# IDE & System Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Playwright & Testing Artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/.playwright-cli/
+
+# Agent & Skill Caches
+/.agents/
+/.taste-skill/
+
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts.bak
